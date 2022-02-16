@@ -1,0 +1,163 @@
+.container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  bottom: 140px;
+}
+
+.header {
+  /* position: absolute; */
+  min-width: 100%;
+  margin: 0px;
+  height: 5rem;
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fffafa;
+}
+
+.logo {
+  position: relative;
+  color: #000080;
+  font-family: "Droid serif", serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 44px;
+  bottom: 2px;
+  text-align: center;
+}
+
+.wishBox {
+  text-align: center;
+  max-width: 45rem;
+  max-width: 95%;
+  position: absolute;
+  top: 260px;
+  background-color: #383838;
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.wishBox h2 {
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+  color: rgb(122, 109, 109);
+  margin: 0;
+  padding: 0px 0px 6px 0px;
+  font-size: 51px;
+  line-height: 44px;
+  letter-spacing: -2px;
+  font-weight: bold;
+}
+
+.wishBox p {
+  font-size: 18px;
+  color: #c0c0c0;
+  line-height: 1.5;
+  letter-spacing: 2.2px;
+}
+
+.background {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #d7e6dc 0%, #384042 74%);
+  position: fixed;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #88dfdf;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: #fce6ed;
+  text-align: center;
+}
+
+.arrowTo {
+  position: relative;
+  top: 1px;
+  left: 150px;
+}
+
+.arrowBack {
+  position: absolute;
+  top: 20px;
+}
+
+.boxBack {
+  min-width: 100%;
+  position: absolute;
+  left: 15px;
+  top: 0px;
+}
+
+.homeButton {
+  background-color: #7f8c8d;
+}
+
+.boxTo {
+  display: flex;
+  position: relative;
+  /* left: 220px; */
+}
+
+.typeBox {
+  position: absolute;
+  font-style: oblique;
+  font-size: 25px;
+  top: 680px;
+}
+
+.typewriter h1 {
+  position: relative;
+  color: #434343;
+  font-family: "Droid serif", serif;
+  overflow: hidden;
+  border-right: solid rgb(211, 200, 200);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
+  animation: typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

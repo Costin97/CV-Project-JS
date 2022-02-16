@@ -1,0 +1,42 @@
+.img {
+  max-width: 60%;
+  max-height: 50%;
+  display: block;
+  z-index: 1000;
+  margin-bottom: 120px;
+
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 120px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.button {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}

@@ -1,0 +1,155 @@
+.block {
+  margin-top: 2rem;
+  margin-bottom: -4rem;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+  /* background-color: red; */
+}
+
+.container {
+  text-align: center;
+}
+
+.fundal {
+  height: 800px;
+  background-color: #4834d4;
+  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+  min-width: 100%;
+  min-height: 100%;
+  /* position: fixed; */
+}
+
+.fundalFixed {
+  background-color: #4834d4;
+  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+}
+
+.block img {
+  margin-top: 1.6rem;
+  min-width: 90%;
+  height: 80%;
+  border-radius: 30%;
+}
+
+.box {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  left: 150px;
+}
+
+.box img {
+  position: relative;
+  margin-left: 0.95rem;
+  bottom: 25px;
+  right: 75px;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 35%;
+  backface-visibility: hidden;
+  background-color: red;
+
+  /* transition: 1.2s ease-in-out; */
+}
+
+.button1 {
+  position: relative;
+  top: 30px;
+  color: rgb(43, 35, 35);
+  letter-spacing: 1px;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
+
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.button2Box {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 70px;
+  right: 510px;
+  min-width: 50%;
+  padding: 1rem;
+  color: #fcfbf7;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.button2 {
+  color: rgb(43, 35, 35);
+  letter-spacing: 1px;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
+}
+
+.button3Box {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  left: 20px;
+  bottom: 20px;
+  min-width: 50%;
+  padding: 1rem;
+  color: #fcfbf7;
+  background-color: #0d0a0b;
+  background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.button3 {
+  position: relative;
+  letter-spacing: 1px;
+  background-color: #1b2845;
+  background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
+}
+
+.button4 {
+  position: relative;
+  letter-spacing: 1px;
+  top: 40px;
+  /* right: 250px; */
+  background-color: #1b2845;
+  background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
+}

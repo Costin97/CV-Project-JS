@@ -1,0 +1,122 @@
+.section {
+  margin-top: 35px;
+  font-size: 1.2rem;
+  color: rgb(211, 200, 200);
+  font-family: "Courier New", Courier, monospace;
+  padding: 1rem;
+}
+
+.box {
+  max-width: 90%;
+  color: rgb(211, 200, 200);
+  margin-left: auto;
+  margin-right: auto;
+  border-color: linear-gradient(315deg, #8b0000 0%, #355e3b 74%);
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+
+  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    both;
+  animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.box p {
+  color: rgb(211, 200, 200);
+}
+
+.male {
+  margin-left: -8.5rem;
+  margin-top: -4.9rem;
+  margin-bottom: 0.4rem;
+  vertical-align: middle;
+}
+
+.flag {
+  position: relative;
+  left: -120px;
+  top: -84px;
+  /* vertical-align: middle; */
+}
+
+.adress {
+  margin-left: -39rem;
+  margin-top: -5.4rem;
+  margin-bottom: 0.3rem;
+  vertical-align: middle;
+}
+
+.phone {
+  margin-left: -18rem;
+  margin-top: -5.3rem;
+  margin-bottom: 0.3rem;
+  vertical-align: middle;
+}
+
+.email {
+  margin-left: -22.2rem;
+  margin-top: -5.3rem;
+  margin-bottom: 0.3rem;
+  vertical-align: middle;
+}
+
+.birth {
+  margin-left: -22rem;
+  margin-top: -5.2rem;
+  margin-bottom: 0.3rem;
+  vertical-align: middle;
+}
+
+.tab {
+  text-indent: 1.2em;
+  margin-top: -4rem;
+}
+
+.para {
+  text-indent: 1.2em;
+  margin-top: -1.6rem;
+}
+
+.text {
+  text-indent: 1.2em;
+  margin-bottom: 1.05rem;
+}
+
+.bold {
+  margin-top: -1rem;
+  font-style: italic;
+  color: rgb(211, 200, 200);
+  font-weight: bold;
+}
+
+.nat {
+  position: relative;
+  top: -40px;
+}
